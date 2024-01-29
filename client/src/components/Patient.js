@@ -29,7 +29,7 @@ const Patient = ({ mediChain, account, ethValue }) => {
   const web3 = new Web3(Web3.givenProvider);
 
   async function fetchData(params) {
-    // console.log("data we get",params)
+    console.log("data we get",params)
     try {
       let prompt = `your a medical assistant and you can only answer medical related questions. The user has asked you this: ${params?.userInput}`;
       // let prompt = `your a medical assistant and you can only answer medical related questions. The user has asked you this: `;
@@ -49,6 +49,7 @@ const Patient = ({ mediChain, account, ethValue }) => {
     start: {
       message: "Hello! I am your AI Doctor Assistant. I can help you with your medical questions! but none the less always consult a real doctor.",
       // message: "hello"
+      path: "loop",
     },
     loop: {
         message: async (params) => {

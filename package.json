@@ -1,5 +1,5 @@
 {
-  "name": "gfg-enigma",
+  "name": "fypmedchain",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -11,13 +11,8 @@
     "truffle:test": "npm run test --prefix truffle"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Karan9034/gfg-enigma.git"
+    "type": "git"
   },
-  "author": "Karan Agrawal",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Karan9034/gfg-enigma/issues"
-  },
-  "homepage": "https://github.com/Karan9034/gfg-enigma#readme"
+  "author": "Yarooq Anwar",
+  "license": "Unlicense"
 }
